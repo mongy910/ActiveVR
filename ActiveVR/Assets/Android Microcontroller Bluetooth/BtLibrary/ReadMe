@@ -1,0 +1,21 @@
+The BtLibrary [ Release Candidate ]
+
+The following library offers more functionality and control, please check out the Manual.
+
+
+## Manual and Documentation : http://yahyabadran.github.io
+
+
+## When to use this library :
+
+1) you want to connect more than one device.
+2) you want other "Android devices" to connect to your device.
+3) you have more chance of making a successful connection with this library, because it has a self connection error handling mechanism.
+3) this library will back the current library when it's in a staple release, so it would help if you tried it out.
+
+
+## How to Use it.
+##########(1)Warnning###########
+Btlibrary shouldn't co-exist with the current library, you either need to delete all the files related to the Android/Bluetooth library, and then install the BtLibrary, or create a new project.
+##########(2)######
+Just Import the Package in this folder to your project, and read the setup guide that comes with it.

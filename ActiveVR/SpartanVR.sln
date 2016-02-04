@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpartanVR.CSharp.Plugins", "SpartanVR.CSharp.Plugins.csproj", "{510446D7-F366-D6D9-0FB5-B1531B67AAD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpartanVR.CSharp", "SpartanVR.CSharp.csproj", "{7BC3B474-98B6-CA48-8517-41F87A3FCE54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpartanVR.CSharp.Editor", "SpartanVR.CSharp.Editor.csproj", "{523C2142-4E3D-7DD5-10AE-9BA4D17F5C74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{510446D7-F366-D6D9-0FB5-B1531B67AAD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{510446D7-F366-D6D9-0FB5-B1531B67AAD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{510446D7-F366-D6D9-0FB5-B1531B67AAD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{510446D7-F366-D6D9-0FB5-B1531B67AAD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BC3B474-98B6-CA48-8517-41F87A3FCE54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BC3B474-98B6-CA48-8517-41F87A3FCE54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BC3B474-98B6-CA48-8517-41F87A3FCE54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BC3B474-98B6-CA48-8517-41F87A3FCE54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{523C2142-4E3D-7DD5-10AE-9BA4D17F5C74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{523C2142-4E3D-7DD5-10AE-9BA4D17F5C74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{523C2142-4E3D-7DD5-10AE-9BA4D17F5C74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{523C2142-4E3D-7DD5-10AE-9BA4D17F5C74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

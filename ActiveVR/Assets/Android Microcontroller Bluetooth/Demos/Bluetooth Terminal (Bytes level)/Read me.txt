@@ -1,0 +1,2 @@
+this Bluetooth terminal uses bytes to send and read
+it might help for non Arduino Microcontrollers

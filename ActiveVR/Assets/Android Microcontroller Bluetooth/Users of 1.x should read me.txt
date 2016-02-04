@@ -1,0 +1,34 @@
+important changes :
+-----------------------------------------------------------------------------------------
+BtConnection.read()  :
+
+every time you call this method, it will delete the buffer,
+so you should hold the data in another variable
+       String temp = BtConnection.read();
+ 
+ this let you check if there's a new data to process , so if not you skip the code waiting for new data.
+ 
+ void Update() {
+  String temp = BtConnection.read();
+  
+ if( temp.length > ) // process the data
+ 
+ else //do another thing
+ 
+}
+
+-----------------------------------------------------------------------------------------
+BtConnection.isSending()   :
+
+you don't need to use this method before sending data.
+the reason is whenever you ask to send any kind of data, the plug-in will manage to send your 
+data after all previous requests has been sent.
+
+now you can do :
+BtConnection.sendChar('h');
+BtConnection.sendChar('e');
+BtConnection.sendChar('l');
+BtConnection.sendChar('l');
+BtConnection.sendChar('o');
+
+the result will be "hello". this is much simpler than before.
